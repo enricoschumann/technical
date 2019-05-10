@@ -1,0 +1,15 @@
+Package: technical
+Type: Package
+Title: Price Patterns and Technical Indicators
+Version: 0.0-1
+Date: 2019-05-09
+Maintainer: Enrico Schumann <es@enricoschumann.net>
+Authors@R: person(given = "Enrico", family = "Schumann",
+                  role  = c("aut", "cre"),
+                  email = "es@enricoschumann.net",
+                  comment = c(ORCID = "0000-0001-7601-6576"))
+Description: Functions for technical analysis: price patterns,
+  indicators, and more.
+License: GPL (>=2)
+Suggests: PMwR
+URL: http://enricoschumann.net/technical/
