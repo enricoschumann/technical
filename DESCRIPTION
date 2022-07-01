@@ -12,4 +12,4 @@ Description: Functions for technical analysis: price patterns,
   indicators, and more.
 License: GPL (>=2)
 Suggests: PMwR
-URL: http://enricoschumann.net/technical/
+URL: http://enricoschumann.net/R/packages/technical/

@@ -8,29 +8,27 @@
 
   Find local minima and maxima in a time-series by comparing
   points with their neighbours.
-  
+
 }
 \usage{
-    pkg_build(pkg, parent.dir = ".", check = FALSE,
-              build.vignettes = TRUE, 
-              run.tests = TRUE, install = FALSE,
-              clean = FALSE, bump.version = FALSE) 
-    latest_version(pkg, path = ".") 
+  .local_min(x, k = 10, min.d = 0)
+  .local_max(x, k = 10, min.d = 0)
 }
 \arguments{
   \item{x}{
     a vector (or a list)
 }
-  \item{n}{
+  \item{k}{
     an integer
 }
-  \item{first}{
+  \item{min.d}{
     where to start
-}
+  }
 }
 \details{
 
-    \code{pkg_build}
+  Experimental.
+
 }
 \value{
   a vector (or a list)
@@ -38,9 +36,6 @@
 \author{
   Enrico Schumann
 }
-\seealso{
-  \code{\link{Extract}}
-}
 \examples{
-1+1
+.local_min(runif(20), k = 10, min.d = 0)
 }
